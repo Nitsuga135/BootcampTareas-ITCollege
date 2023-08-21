@@ -1,0 +1,76 @@
+:root{
+    --blanco:#fff;
+    --celeste: #b6d2da;
+    --azul: #697f96;
+    --fondo: #414c58;
+    --aspiradoras:#f5d4b4;
+    --celulares:#8bc0c6;
+    --consolas:#cacaca;
+    --home:#8a8989;
+    --tele:#aba8a8;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: var(--fondo);
+}
+h1{
+    font-size: 60px;
+    margin: 40px 5px;
+    font-weight: 3000;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: var(--celeste);
+    color: var(--azul);
+    text-align: center;
+}
+p{
+    font-family: Arial, Gadget, sans-serif;
+    color: var(--blanco);
+    font-size: 18px;
+    margin:20px 5px;
+}
+h2{
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: 400 ;
+    font-style: italic;
+    margin-left: 5px;
+}
+img{
+    margin: 20px 40px;
+    padding: 1px;
+    background-color: #414c58;
+}
+#subtitulo-1{
+    color: var(--aspiradoras);
+    
+}
+#img-1{
+    border: 5px solid var(--aspiradoras);
+}
+#subtitulo-2{
+    color:var(--celeste);
+}
+#img-2{
+    border: 5px solid var(--celulares);
+}
+#subtitulo-3{
+    color: var(--consolas);
+}
+#consolas-img{
+    border: 5px solid var(--consolas) ;
+}
+#home-title{
+    color: var(--home);   
+}
+#home-img{
+    border: 5px solid var(--home)
+}
+#tele-title{
+    color:var(--tele)
+}
+#tele-img{
+    border: 5px solid var(--tele);
+}

@@ -1,0 +1,103 @@
+:root{
+    --blanco:#fff;
+    --fondo:rgb(238, 46, 136);
+    --fondo-rosa-oscuro:rgb(199, 34, 111);
+    --titulo-producto:rgb(179, 33, 101);
+    --comprar:rgb(10, 184, 10);
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--fondo);
+    
+    margin-top: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+.diseno3{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    
+    
+    background-color: var(--fondo-rosa-oscuro);
+    color: var(--blanco);
+    
+    font-size: 50px;
+
+    border-left: 2px solid var(--blanco);
+    border-right: 2px solid var(--blanco);
+
+    width: 80%;
+    margin:20px auto;
+    padding: 10px;
+}
+
+section{
+    background-color: var(--fondo-rosa-oscuro);
+    
+    width: 80%;
+    margin: auto;
+
+    border-radius: 5px;
+}
+
+h2{
+    text-align: left;
+    padding: 20px;
+    color: var(--blanco);
+
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--blanco);
+    margin: 10px;
+    padding: 20px 10px 10px 10px;
+
+    border-radius: 5px;
+}
+h3{
+    text-align: right;
+    color: var(--titulo-producto);
+    
+    border-bottom: 2px dotted var(--titulo-producto);
+    
+    width: 100%;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
+}
+p{
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+
+    color: var(--blanco);
+    background-color: var(--comprar);
+
+    margin: auto;
+    padding: 10px;
+    width: 100px;
+    
+    border-radius: 5px;
+}
+footer p {
+    color:var(--blanco);
+    text-align: center;
+}

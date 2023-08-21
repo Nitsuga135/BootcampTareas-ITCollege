@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(39, 38, 38);
+}
+h1{
+    text-align: center;
+    border-top: 20px solid rgb(67, 112, 67);
+    border-bottom: 20px solid rgb(67, 112, 67);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    width: 60%;
+    margin: 20px auto;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+fieldset{
+    /*background-color: rgb(168, 197, 168);*/
+    background-color: rgb(205, 227, 205);
+    width: 60%;
+    font-family:'Poppins', sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid rgb(67, 112, 67);
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    
+}
+legend{
+    background-color: rgb(67, 112, 67);
+    padding: 10px 5px 7px 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputs{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    border:1px solid rgb(67, 112, 67);
+    font-family: "Poppins", sans-serif;
+    
+}
+input:focus{
+    background-color: rgb(67, 112, 67);
+}
+fieldset:focus-within {
+    background-color: rgb(157, 186, 157);
+}
+label{
+
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+
+}
+#nacionalidad{
+
+    width: 79%;
+    height: 30px;
+    border-radius: 5px;
+    border:1px solid rgb(67, 112, 67);
+    color:rgb(67, 112, 67);
+    font-family: "Poppins", sans-serif;
+
+}
+textarea{
+
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(67, 112, 67);
+
+}
+textarea:focus{
+
+    background-color: rgb(67, 112, 67);
+
+}
+
+.radio-container input{
+    margin: 5px;
+}
+input::placeholder{
+    text-align: right;
+    padding-right: 5px;
+    color: rgb(67, 112, 67);
+}
+.container-input{
+    align-items: flex-start;
+}
+p{
+    margin: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+.botones{
+    
+}
+.espacio{
+    margin: 10px;
+}
+.con1{
+    width: 60%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.con input{
+    width: 100px;
+    border: 1px solid rgb(67, 112, 67);
+    background-color: rgb(99, 161, 99);
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}

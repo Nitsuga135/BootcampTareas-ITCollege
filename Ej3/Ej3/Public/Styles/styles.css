@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 5px;
+}
+img{
+    width: 100%;
+}
+ol{
+    margin: 20px;
+}
+.list-header{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    color: rgb(191, 191, 191);
+}
+.list-header li{
+    font-size: 8px;
+}
+.list-header li a{
+    color: rgb(255, 85, 0);
+    font-size: 18px;
+}
+
+h1{
+    color: rgb(165, 85, 42);
+    margin: 10px 0 ;
+}
+h2{
+    font-size: 18px;
+    color: rgb(252, 241, 235);
+    background-color: rgb(100, 53, 27);
+}
+p{
+    color:rgb(165, 85, 42);
+    font-size: 14px;
+}
+main ul{
+    padding: 10px;
+
+}
+li{
+    color: rgb(165, 85, 42);
+    font-size: 14px;
+}
+.alquileres a{
+    color: rgb(255, 85, 0);
+
+}
+.notas{
+    color: rgb(18, 190, 220);
+}
+.notas-red{
+    color: red;
+}
+div{
+    margin: 10px 20px;
+}
+.naranja{
+    color: rgb(255, 85, 0);
+}
+.marg{
+    margin: 0;
+    padding: 0 40px;
+}
+.marg-container{
+    margin: 0;
+}
+.porque{
+    color   :rgb(255, 200, 0)
+    
+}
+footer{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    
+    color: yellow;
+}

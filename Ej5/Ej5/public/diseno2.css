@@ -1,0 +1,137 @@
+:root{
+    --titulo:rgb(242, 242, 27);
+    --fondo-p:#808080;
+    --comprar:rgb(1, 176, 1);
+    --subtitulo:#000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/fondo-img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+    color: var(--titulo);
+
+    font-size: 40px;
+}
+.diseno3{
+    display: none;
+}
+section{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-all{
+    margin: auto;
+}
+article{
+    margin: 15px;
+
+ 
+    width: 80%;
+
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 10px 5px 5px black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h2{
+    margin-top: 15px;
+
+    color: var(--titulo);
+}
+h3{
+    color: var(--subtitulo);
+    margin: 5px;
+}
+
+img{
+    height: 350px;
+    width: 90%;
+    margin-bottom: 5px;
+    
+}
+div{
+    width: 90%;
+}
+
+p{
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+
+    width: 100px;
+    height: 30px;
+
+    margin: 5px;
+    padding: 5px;
+    
+    color: #fff;
+    background-color: var(--comprar);
+
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+
+@media (min-width:1000px){
+  
+    article{
+        margin: 15px;
+        position: relative;
+    
+        height: 200px;
+        width: 250px;
+    
+        background-color: #fff;
+        border-radius: 5px;
+        border: 1px solid #000000;
+        box-shadow: 10px 5px 5px black;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+
+    article>div{
+        position: absolute;
+        left: -370px;
+        display: none;
+        
+        width: 350px;
+
+        background-color: var(--fondo-p);
+        color: #fff;
+    
+        padding: 10px;
+        
+
+    }
+    article>img:hover~div{
+        display: block;
+    }
+}

@@ -1,0 +1,74 @@
+:root{
+    --rosa:#d04aaa;
+    --azul:#0088ff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo{
+    
+   width: 200px;
+    height: 100px;
+}
+#logo-container{
+    text-align: center;
+    width: 100%;
+    margin: 40px 0;
+    height: 120px;
+
+}
+#title{
+    color: var(--rosa);
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.subtitulo{
+    letter-spacing: 10px;
+    font-family: 20px;
+    color: var(--rosa);
+    margin: 5px;
+}
+.parrafo{
+    font-size: 15px;
+    color: var(--azul);
+    margin: 20px 5px;
+}
+.img-1{
+    float: right;
+    margin: 10px 10px 10px 20px;
+    
+    width: 35%;
+}
+.container-1{
+    text-align: left;
+    margin: 5px;
+}
+.img-2{
+    float: left;
+    width: 35%;
+    margin: 10px 20px 10px 10px ;
+}
+.container-2{
+    text-align:left;
+    margin: 5px;
+}
+
+.img-3{
+    float: right;
+    margin: 10px 20px 10px 10px;
+    width: 35%;
+}
+.container-3{
+    text-align:left;
+    margin: 5px;
+}
+.img-4{
+    width: 95%;
+    margin: 2.5%;
+}
