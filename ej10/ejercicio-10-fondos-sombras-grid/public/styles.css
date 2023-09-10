@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 35px;
+    background-image: url("../img.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#display{
+    width: 100%;
+    height: 60px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    text-align: right;
+
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-signo{
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+}
+.container-arriba-abajo{
+    width: 225px;
+    margin-right: 5px;
+}
+.container-all{
+    width: 250px;
+    height: 550px;
+}
+
+#numeros-container{
+    
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    grid-template-columns: 62px 62px 62px 62px;
+    gap: 2px;
+
+}
+#numeros-container div{
+   
+    text-align: center;
+    align-self: auto;
+
+    margin: 2px;
+    background: linear-gradient(to bottom right, blue, pink);
+    
+    text-align: center;
+    height: 60px;
+    width: calc(246px / 4.3);
+
+    border-radius: 5px;
+    border: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#numeros-container div:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1);
+   
+    
+}
